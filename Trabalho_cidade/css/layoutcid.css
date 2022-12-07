@@ -1,0 +1,65 @@
+body{
+    /* altera propriedades gerais do conteudo html */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto; /* centraliza o conteudo */
+    background-color: #f5e1cd;
+}
+header{ /* altera o cxabeçalho do site */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e79238;
+}
+.logo{
+    width: 40%;
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+.logo img{
+    width: 15%;
+}
+.navegacao{
+    overflow: hidden;
+    color: black
+}
+.navegacao a{ /* altera os hyperlinks da classe navegação */
+    float: right; /* posiciona o conteudo a direita */
+    text-decoration: none; /* retira o sublinhado do hypoerlink */
+    padding: 10px;
+    color: white;
+    background-color: #e79238;
+}
+
+.navegacao a:hover{ /* altera a cor dos hyperlinks quando passa o mouse - não é permanente */
+    color: black;
+    border-radius: 10px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.imagem{
+    text-align: center;
+}
+.imagem img{
+    width: 45%;
+}
+.conteudo{
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 15px;
+}
+.numeros{
+    margin-left: 100px;
+}
+.lista{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tv{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+.videos{
+    margin-left: 200px;
+}

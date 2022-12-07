@@ -1,0 +1,76 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*margin: 50px; utilizando margem como shorthand*/
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    border-style:double;
+    border-width: 10px;
+    border-color: black);
+    /*padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;*/
+    padding:10px 20px;/*atalho para definir respectivamente preenchimento com 10px acima e abaixo e 20px direita e esquerda*/
+
+}
+h1{
+    background-color: rgb(251, 178, 190);
+    color: white;
+}
+span{
+    background-color: pink;
+    color:black;   
+}
+p{
+    background-color: pink;
+    color: black;
+    display: inline; /*altera a propriedade de block-level para inline*/
+}
+div{
+    background-color: pink;
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+}
+.box1{
+    background-color: rgb(231, 40, 145);
+    width: 400px;
+    height: 50px;
+    position: static;
+    top: 50px;
+    left: 500px;/*top e left só funcionam junto com o position*/
+}
+.box2{
+    background-color: rgb(196, 36, 90);
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 100px;
+}
+.box3{
+    background-color: rgb(221, 92, 135);
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    left: 350px;
+}
+.box4{
+    background-color: rgb(240, 143, 176);
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    top: 200px;
+    right: 200px;
+    
+
+}
+.box5{
+    background-color: pink;
+    width: 400px;
+    height: 50px;
+    position: sticky;
+    bottom: 300px;
+    left: 2000px;
+}
